@@ -65,3 +65,11 @@ footer {
   padding: 2% 5%;
 background-color: #393E46;
 }
+
+@media (max-width: 1028px) {
+
+  .player-1 , .player-2 {
+    display: block;
+
+  }
+}
