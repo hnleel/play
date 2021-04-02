@@ -25,7 +25,7 @@ var p1num = (Math.floor(Math.random()*6)) +1 ;
 document.querySelector(".player-1-img").src = "dice"+p1num+".png";
 
 var p2num = (Math.floor(Math.random()*6)) +1 ;
-document.querySelector(".player-2-img").src = "dice2.png";
+document.querySelector(".player-2-img").src = "dice"+p2num+".png";
 
 if (p1num>p2num) {
   document.querySelector(".heading-h1").innerText="🚩 Player 1 wins";
